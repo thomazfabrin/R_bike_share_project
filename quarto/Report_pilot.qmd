@@ -1,0 +1,33 @@
+---
+title: "Cyclistic"
+format: html
+engine: knitr
+---
+
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+.center {
+  text-align: center !important
+}
+```
+
+## Introduction
+::: {.justify}
+This is the Cyclistic bike-share analysis case study. The marketing team at Cyclistic aims to maximize annual memberships. 
+To design a marketing strategy for converting casual riders into annual members, it is necessary to understand how these two groups
+use Cyclistic bikes differently. Any recommendations must be backed up with compelling data insights and professional data visualizations.
+
+## About the company
+Cyclistic, launched in 2016, has grown to a fleet of 5,824 bicycles across 692 stations in Chicago. The company offers single-ride passes, full-day passes, and annual memberships. Casual riders are customers who purchase single-ride or full-day passes, while annual members are those who purchase annual memberships. 
+The final goal is to design marketing strategies to convert casual riders into annual members by analyzing Cyclistic's historical bike trip data to identify trends.
+:::
+
+## Descriptive analytics
+Data is available at [Divvy Data](https://divvy-tripdata.s3.amazonaws.com/index.html).
+
+### Data distribution
+::: {.center}
+![Figure 1. Data distribution.](figures/distribution_violin.png)
+:::
